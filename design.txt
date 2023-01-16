@@ -1,0 +1,25 @@
+
+Title: 
+Adoption site for puppy
+
+Description: 
+This is web app in which users can adopt puppy from database.
+On Adoption_site you can add new puppy to database. 
+Owner can adopt new puppy by chosing id_puppy.
+When puppy was adopted it is removed form database.
+
+Objects:
+
+Puppy:
+-atr name
+
+Owner:
+-atr name
+-atr id_pup
+
+App.route:
+-index
+-add_pup
+-list-pup
+-del-pup
+-add-owner
